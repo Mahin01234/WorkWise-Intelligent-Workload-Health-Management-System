@@ -7,10 +7,6 @@ We are gathering data to improve our system. Please take a moment to fill out th
 
 👉 **[Click here to fill out the WorkWise Form](https://forms.gle/oeYZwNhJJWmt1oov8)**
 
-## 🌐 Live Web Page
-You can also access the form through our dedicated web page:
-
-🔗 **[Visit the Live Page](https://mahin01234.github.io/WorkWise-Intelligent-Workload-Health-Management-System/)**
 
 ---
-*Thank you for your participation!*
+
