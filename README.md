@@ -246,27 +246,3 @@ A formal open-source license may be added in the future.
 
 ---
 
-## 👥 Project
-
-**Project Name:** WorkWise — Intelligent Workload & Health Management System
-
-**Repository:** [WorkWise — Intelligent Workload & Health Management System](https://github.com/Mahin01234/WorkWise-Intelligent-Workload-Health-Management-System)
-
-**Purpose:** Intelligent workload monitoring, well-being analysis, and data-driven workload management.
-
----
-
-## 📬 Contact
-
-- **GitHub:** [@Mahin01234](https://github.com/Mahin01234)
-- **Issues:** [Open an issue](https://github.com/Mahin01234/WorkWise-Intelligent-Workload-Health-Management-System/issues)
-
-For questions, suggestions, or collaboration, feel free to reach out through the channels above.
-
----
-
-## 🙏 Thank You
-
-Thank you for your interest in **WorkWise**.
-
-Your participation, feedback, and contributions can help us develop a better system for understanding workload and promoting healthier work environments.
