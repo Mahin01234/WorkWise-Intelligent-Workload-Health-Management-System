@@ -184,9 +184,8 @@ Employee
 
 The project is currently under development. The current **planned** technology stack includes:
 
-- **Frontend:** HTML, CSS, JavaScript
+- **Frontend:** HTML, CSS, 
 - **Backend:** Java
-- **Database:** SQL
 - **System Analysis & Design:** UML
 - **Data Analysis:** Workload and well-being data analysis
 
