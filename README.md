@@ -184,44 +184,65 @@ The following diagram illustrates the proposed workflow of WorkWise.
                     |
                     v
                   Admin
+```
 
-----
+---
 
-### 🛠️ Project Technologies
+## 🛠️ Project Technologies
+
 WorkWise is currently under development. The planned technology stack includes:
-Component	Technology
-Frontend	HTML, CSS
-Backend	Java
-System Analysis & Design	UML
-Data Analysis	Workload and well-being data analysis
 
+| Component | Technology |
+|-----------|------------|
+| Frontend | HTML, CSS |
+| Backend | Java |
+| System Analysis & Design | UML |
+| Data Analysis | Workload and well-being data analysis |
 
-The technology stack may be extended or updated as the project progresses.
+> The technology stack may be extended or updated as the project progresses.
 
-📁 Project Resources
+---
+
+## 📁 Project Resources
+
 The repository includes the following project resources:
-- Diagram.pdf — System architecture and design diagrams.
-- Employee Work Experience Survey.mp4 — A walkthrough of the employee survey process.
-- System Sequence Diagram and Project Development Methodology.pdf — System sequence diagrams and details of the project's development methodology.
-📌 Open these files from the repository to explore the system design, survey process, and development methodology.
 
-🤝 How to Contribute
+- [Diagram.pdf](https://github.com/Mahin01234/WorkWise-Intelligent-Workload-Health-Management-System/blob/main/Diagram.pdf) — System architecture and design diagrams.
+- [Employee Work Experience Survey.mp4](https://github.com/Mahin01234/WorkWise-Intelligent-Workload-Health-Management-System/blob/main/Employee%20Work%20Experience%20Survey.mp4) — A walkthrough of the employee survey process.
+- [System Sequence Diagram and Project Development Methodology.pdf](https://github.com/Mahin01234/WorkWise-Intelligent-Workload-Health-Management-System/blob/main/System%20Sequence%20Diagram%20and%20Project%20Development%20Methodology.pdf) — System sequence diagrams and details of the project's development methodology.
+
+> 📌 Open these files from the repository to explore the system design, survey process, and development methodology.
+
+---
+
+## 🤝 How to Contribute
+
 Contributions, feedback, and suggestions are welcome.
-1. Participate in the Survey
-Complete the WorkWise Survey to help us understand employee workload and well-being.
-2. Share the Survey
+
+### 1. Participate in the Survey
+Complete the [WorkWise Survey](https://forms.gle/oeYZwNhJJWmt1oov8) to help us understand employee workload and well-being.
+
+### 2. Share the Survey
 Share the questionnaire with relevant participants to help collect a broader range of responses.
-3. Provide Feedback
-If you have suggestions, ideas, or find an issue, open an issue in the repository.
-4. Contribute Code
+
+### 3. Provide Feedback
+If you have suggestions, ideas, or find an issue, open an **issue** in the repository.
+
+### 4. Contribute Code
 Developers can contribute by following these steps:
+
 1. Fork the repository.
 2. Create a new branch.
 3. Make the required changes.
 4. Commit the changes.
 5. Create a pull request.
-📌 Future Plans
+
+---
+
+## 📌 Future Plans
+
 The following features are planned for future development:
+
 - [ ] Intelligent workload prediction
 - [ ] Personalized workload recommendations
 - [ ] Advanced employee well-being analysis
@@ -230,6 +251,15 @@ The following features are planned for future development:
 - [ ] Machine learning-based workload–well-being analysis
 - [ ] Real-time monitoring and notifications
 - [ ] Advanced reporting and analytics
-📄 License
-WorkWise is currently being developed for academic, research, and development purposes.
+
+---
+
+## 📄 License
+
+WorkWise is currently being developed for **academic, research, and development purposes**.
+
 A formal open-source license may be added in the future. Until a license is added, the project's reuse and redistribution permissions should not be assumed.
+
+---
+
+**WorkWise — Building a healthier, more balanced, and more productive workplace.**
