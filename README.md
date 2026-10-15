@@ -6,9 +6,9 @@
 
 **WorkWise** is an intelligent workload and health management system designed to help employees and organizations monitor work activities, understand workload patterns, identify potential well-being risks, and make data-driven decisions for a healthier and more productive work environment.
 
-The system aims to combine **workload monitoring, activity tracking, well-being analysis, and intelligent insights** in a single platform.
+The system aims to combine **workload monitoring, activity tracking, well-being analysis, and intelligent insights** into a single platform.
 
-> 🚧 **Note:** WorkWise is currently under active development. Some features described below are already planned or designed, while others are part of the future roadmap. See [Future Plans](#-future-plans) for details.
+> 🚧 **Note:** WorkWise is currently under active development. Some features are planned or under development and may not be fully implemented yet.
 
 ---
 
@@ -43,7 +43,7 @@ The system aims to combine **workload monitoring, activity tracking, well-being 
 
 ## 🚀 Key Features
 
-> ⚠️ **Note:** Some features listed below are currently planned or under development. They may not all be fully implemented yet.
+> ⚠️ **Note:** The following features represent the project's planned and developing functionality. Not all features may be available yet.
 
 ### 👤 Employee Management
 - Employee registration and login
@@ -79,31 +79,31 @@ The system aims to combine **workload monitoring, activity tracking, well-being 
 
 ## 🧠 Intelligent Workload & Well-being Management
 
-WorkWise focuses on understanding how **workload and work patterns can affect employee well-being**.
+WorkWise focuses on understanding how **workload and work patterns may affect employee well-being**.
 
-The collected data can be analyzed to identify:
+Collected data may be analyzed to identify:
 
-- High workload periods
-- Excessive work sessions
+- High-workload periods
+- Excessively long work sessions
 - Frequent inactivity
-- Unbalanced workloads
+- Uneven workload distribution
 - Potential workload-related well-being risks
 
-Based on these insights, WorkWise can help provide recommendations and alerts for better workload management.
+Based on these insights, WorkWise aims to provide recommendations and alerts to support better workload management and healthier work habits.
 
 ---
 
 ## 📝 Data Collection
 
-We are collecting anonymous data through a questionnaire to better understand workload patterns and well-being challenges.
+We are collecting survey data through a questionnaire to better understand employee workload patterns and well-being challenges.
 
 ### Participate in the WorkWise Survey
 
-👉 **[Fill Out the WorkWise Form](https://forms.gle/oeYZwNhJJWmt1oov8)**
+👉 **[Fill Out the WorkWise Survey](https://forms.gle/oeYZwNhJJWmt1oov8)**
 
 The questionnaire takes only a few minutes to complete.
 
-> **Privacy Note:** Survey responses are collected for research and development purposes. Please avoid submitting personally identifiable or sensitive information unless the form explicitly requests it and provides appropriate information about its use.
+> **Privacy Note:** Survey responses are intended for research and development purposes. Please avoid submitting personally identifiable or sensitive information unless the form explicitly requests it and clearly explains how that information will be used.
 
 ---
 
@@ -114,7 +114,7 @@ The collected data may be used to:
 - Understand workload and well-being patterns.
 - Identify common workload-related risk factors.
 - Analyze relationships between workload and well-being.
-- Develop and validate intelligent workload–well-being models.
+- Develop and evaluate intelligent workload–well-being models.
 - Improve the accuracy and usefulness of WorkWise.
 - Support future research and system development.
 
@@ -122,119 +122,114 @@ The collected data may be used to:
 
 ## 🏗️ System Overview
 
-WorkWise consists of two primary roles:
+WorkWise is designed around two primary roles: **Employee** and **Admin**.
 
 ### 👨‍💻 Employee
 
-Employees can:
+Employees will be able to:
 
-- Register and log in
-- Manage their profile
-- Create and manage tasks
-- Set task deadlines
-- Start and stop work sessions
-- Monitor work activity
-- Receive inactivity and workload alerts
-- View activity and workload information
+- Register and log in.
+- Manage their profiles.
+- Create and manage tasks.
+- Set task deadlines.
+- Start and stop work sessions.
+- Monitor work activity.
+- Receive inactivity and workload alerts.
+- View activity and workload information.
 
 ### 👨‍💼 Admin
 
-Administrators can:
+Administrators will be able to:
 
-- Log in to the system
-- Monitor employee activities
-- View workload information
-- Monitor task progress
-- Access activity summaries
-- Generate workload and activity reports
-- Use the dashboard for overall system monitoring
+- Log in to the system.
+- Monitor employee activities.
+- View workload information.
+- Monitor task progress.
+- Access activity summaries.
+- Generate workload and activity reports.
+- Use the dashboard for overall system monitoring.
 
 ---
 
 ## 🔄 Basic Workflow
 
+The following diagram illustrates the proposed workflow of WorkWise.
+
 ```text
-Employee
-   │
-   ├── Registration / Login
-   ├── Profile Management
-   ├── Task Management
-   ├── Work Session
-   ├── Activity Monitoring
-   ├── Workload Tracking
-   └── Well-being Alerts
-             │
-             ▼
-      WorkWise System
-             │
-             ▼
-       Data Analysis
-             │
-             ▼
-     Insights & Reports
-             │
-             ▼
-           Admin
+                 Employee
+                    |
+        +-----------+-----------+
+        |           |           |
+   Registration  Profile      Task
+    / Login     Management  Management
+        |           |           |
+        +-----------+-----------+
+                    |
+             Work Session
+                    |
+           Activity Monitoring
+                    |
+            Workload Tracking
+                    |
+            Well-being Alerts
+                    |
+                    v
+             WorkWise System
+                    |
+                    v
+               Data Analysis
+                    |
+                    v
+             Insights & Reports
+                    |
+                    v
+                  Admin
 
 ----
 
-##🛠️ Project Technologies
-The project is currently under development. The current planned technology stack includes:
-Frontend: HTML, CSS
-Backend: Java
-System Analysis & Design: UML
-Data Analysis: Workload and well-being data analysis
+### 🛠️ Project Technologies
+WorkWise is currently under development. The planned technology stack includes:
+Component	Technology
+Frontend	HTML, CSS
+Backend	Java
+System Analysis & Design	UML
+Data Analysis	Workload and well-being data analysis
+
+
 The technology stack may be extended or updated as the project progresses.
----
 
-## 📁 Project Resources
-The repository contains the following key resources:
-Diagram.pdf – System architecture and design diagrams.
-Employee Work Experience Survey.mp4 – A walkthrough of the employee survey process.
-System Sequence Diagram and Project Development Methodology.pdf – Detailed system sequence diagrams and the development methodology followed.
+📁 Project Resources
+The repository includes the following project resources:
+- Diagram.pdf — System architecture and design diagrams.
+- Employee Work Experience Survey.mp4 — A walkthrough of the employee survey process.
+- System Sequence Diagram and Project Development Methodology.pdf — System sequence diagrams and details of the project's development methodology.
+📌 Open these files from the repository to explore the system design, survey process, and development methodology.
 
----
-
-## 🤝 How to Contribute
-Contributions and suggestions are welcome.
+🤝 How to Contribute
+Contributions, feedback, and suggestions are welcome.
 1. Participate in the Survey
-Complete the WorkWise questionnaire and help us collect useful research data.
+Complete the WorkWise Survey to help us understand employee workload and well-being.
 2. Share the Survey
-Share the survey with relevant participants to help us collect a broader range of responses.
+Share the questionnaire with relevant participants to help collect a broader range of responses.
 3. Provide Feedback
-If you have suggestions, ideas, or find an issue, feel free to open an Issue in this repository.
+If you have suggestions, ideas, or find an issue, open an issue in the repository.
 4. Contribute Code
-Developers can contribute by:
-Forking the repository.
-Creating a new branch.
-Making the required changes.
-Committing the changes.
-Creating a Pull Request.
-
----
-
-##📌 Future Plans
-□ Intelligent workload prediction
-□ Personalized workload recommendations
-□ Advanced employee well-being analysis
-□ Automated risk detection
-□ Improved dashboards and visualizations
-□ Machine learning-based workload–well-being analysis
-□ Real-time monitoring and notifications
-□ Advanced reporting and analytics
-
----
-##📄 License
-This project is currently developed for academic, research, and development purposes.
-
-A formal open-source license may be added in the future.
-
-### Key Changes Made
-
-1.  **Added a "Project Resources" section** – This new section links to the additional files now in the repository: `Diagram.pdf`, `Employee Work Experience Survey.mp4`, and `System Sequence Diagram and Project Development Methodology.pdf`. This makes these valuable resources easily discoverable for users and contributors[reference:0].
-2.  **Removed "Project Status" and "Contact" sections** – As indicated by the recent commit message "Remove project and contact sections from README"[reference:1], these sections have been deleted to keep the README focused on the project's core information.
-3.  **Updated the Technology Stack** – The `Backend` entry now correctly lists **Java**, aligning with the repository's description of being a Java-based desktop system[reference:2].
-4.  **Refined the Table of Contents** – Updated to reflect the new "Project Resources" section and the removal of the outdated sections.
-
-
-
+Developers can contribute by following these steps:
+1. Fork the repository.
+2. Create a new branch.
+3. Make the required changes.
+4. Commit the changes.
+5. Create a pull request.
+📌 Future Plans
+The following features are planned for future development:
+- [ ] Intelligent workload prediction
+- [ ] Personalized workload recommendations
+- [ ] Advanced employee well-being analysis
+- [ ] Automated risk detection
+- [ ] Improved dashboards and visualizations
+- [ ] Machine learning-based workload–well-being analysis
+- [ ] Real-time monitoring and notifications
+- [ ] Advanced reporting and analytics
+📄 License
+WorkWise is currently being developed for academic, research, and development purposes.
+A formal open-source license may be added in the future. Until a license is added, the project's reuse and redistribution permissions should not be assumed.
