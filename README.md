@@ -262,4 +262,7 @@ A formal open-source license may be added in the future. Until a license is adde
 
 ---
 
+
+
 **WorkWise — Building a healthier, more balanced, and more productive workplace.**
+
