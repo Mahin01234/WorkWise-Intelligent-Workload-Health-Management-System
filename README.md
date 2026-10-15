@@ -20,9 +20,9 @@ The system aims to combine **workload monitoring, activity tracking, well-being 
 - [Data Collection](#-data-collection)
 - [Data Usage](#-data-usage)
 - [Privacy & Data Protection](#-privacy--data-protection)
-- [System Overview](#️-system-overview)
+- [System Overview](#-system-overview)
 - [Basic Workflow](#-basic-workflow)
-- [Project Technologies](#️-project-technologies)
+- [Project Technologies](#-project-technologies)
 - [Project Resources](#-project-resources)
 - [How to Contribute](#-how-to-contribute)
 - [Future Plans](#-future-plans)
@@ -44,7 +44,7 @@ The system aims to combine **workload monitoring, activity tracking, well-being 
 
 ## 🚀 Key Features
 
-> ⚠️ **Note:** The following features represent the project's planned and developing functionality. Not all features may be available yet.
+> ⚠️ **Note:** The following features represent planned and developing functionality. Not all features may be available yet.
 
 ### 👤 Employee Management
 
@@ -128,17 +128,17 @@ The collected data may be used to:
 
 ## 🔒 Privacy & Data Protection
 
-WorkWise is committed to protecting employee privacy and ensuring data protection **in practice**, not just in documentation. Features involving **keyboard/mouse monitoring** and **well-being analysis** will follow these principles:
+WorkWise aims to protect employee privacy and incorporate data protection throughout development. Features involving **keyboard/mouse monitoring** and **well-being analysis** should follow these principles:
 
-- **Data Minimization:** Only collect data that is strictly necessary for the system's functionality.
-- **Anonymization:** Personal identifiers will be removed or masked wherever possible.
-- **Explicit Consent:** Users must provide clear, informed consent before any monitoring begins.
-- **Transparency:** Users will be able to see what data is collected and how it is used.
-- **Secure Storage:** All collected data will be stored securely with access controls.
-- **Right to Withdraw:** Users can stop monitoring and request data deletion at any time.
-- **Regulatory Compliance:** The system will comply with applicable data protection regulations (e.g., GDPR principles).
+- **Data Minimization:** Collect only data necessary for the system's stated functionality.
+- **Anonymization:** Remove or mask personal identifiers wherever appropriate and feasible.
+- **Explicit Consent:** Obtain clear, informed consent before monitoring begins.
+- **Transparency:** Explain what data is collected and how it is used.
+- **Secure Storage:** Protect collected data with appropriate security measures and access controls.
+- **Right to Withdraw:** Provide a clear process for users to stop monitoring and request data deletion, subject to applicable requirements.
+- **Regulatory Compliance:** Consider applicable data protection laws and relevant principles, including those reflected in the GDPR where applicable.
 
-> These commitments will be reviewed and enforced throughout the development lifecycle.
+> These are development goals and design principles. They should not be understood as confirmation that every safeguard has already been implemented.
 
 ---
 
@@ -148,23 +148,23 @@ WorkWise is designed around two primary roles: **Employee** and **Admin**.
 
 ### 👨‍💻 Employee
 
-Employees will be able to:
+Employees are intended to be able to:
 
 - Register and log in.
 - Manage their profiles.
 - Create and manage tasks.
 - Set task deadlines.
 - Start and stop work sessions.
-- Monitor work activity.
+- View work activity information.
 - Receive inactivity and workload alerts.
-- View activity and workload information.
+- View activity and workload summaries.
 
 ### 👨‍💼 Admin
 
-Administrators will be able to:
+Administrators are intended to be able to:
 
 - Log in to the system.
-- Monitor employee activities.
+- View permitted employee activity information.
 - View workload information.
 - Monitor task progress.
 - Access activity summaries.
@@ -212,7 +212,7 @@ Admin
 WorkWise is currently under development. The planned technology stack includes:
 
 | Component | Technology |
-|-----------|------------|
+|---|---|
 | Frontend | HTML, CSS |
 | Backend | Java |
 | System Analysis & Design | UML |
@@ -286,7 +286,3 @@ A formal open-source license may be added in the future. Until a license is adde
 ---
 
 **WorkWise — Building a healthier, more balanced, and more productive workplace.**
-
-
----
-
