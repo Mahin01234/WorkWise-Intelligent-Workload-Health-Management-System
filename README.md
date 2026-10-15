@@ -20,9 +20,9 @@ The system aims to combine **workload monitoring, activity tracking, well-being 
 - [Data Collection](#-data-collection)
 - [Data Usage](#-data-usage)
 - [Privacy & Data Protection](#-privacy--data-protection)
-- [System Overview](#-system-overview)
+- [System Overview](#️-system-overview)
 - [Basic Workflow](#-basic-workflow)
-- [Project Technologies](#-project-technologies)
+- [Project Technologies](#️-project-technologies)
 - [Project Resources](#-project-resources)
 - [How to Contribute](#-how-to-contribute)
 - [Future Plans](#-future-plans)
@@ -47,29 +47,34 @@ The system aims to combine **workload monitoring, activity tracking, well-being 
 > ⚠️ **Note:** The following features represent the project's planned and developing functionality. Not all features may be available yet.
 
 ### 👤 Employee Management
+
 - Employee registration and login
 - Employee profile management
 - Secure logout functionality
 
 ### 📋 Task & Workload Management
+
 - Create and manage tasks
 - Set and monitor task deadlines
 - Track task progress
 - Monitor workload patterns
 
 ### 💻 Work Activity Monitoring
+
 - Start and stop work sessions
 - Monitor keyboard and mouse activity
 - Detect active and inactive periods
 - Provide inactivity alerts and break reminders
 
 ### ❤️ Workload & Well-being Monitoring
+
 - Track workload levels
 - Identify potential workload-related risks
 - Generate workload and well-being alerts
 - Support healthier work routines
 
 ### 📊 Reports & Dashboard
+
 - Employee activity summaries
 - Workload reports
 - Employee activity reports
@@ -123,13 +128,17 @@ The collected data may be used to:
 
 ## 🔒 Privacy & Data Protection
 
-WorkWise is committed to protecting employee privacy and ensuring data protection. Features involving **keyboard/mouse monitoring** and **well-being analysis** will be designed with privacy by default:
+WorkWise is committed to protecting employee privacy and ensuring data protection **in practice**, not just in documentation. Features involving **keyboard/mouse monitoring** and **well-being analysis** will follow these principles:
 
-- Data anonymization wherever possible.
-- Clear user consent and transparency about data collection.
-- Secure storage and access controls.
-- Compliance with relevant data protection regulations.
-- No personally identifiable information collected without explicit consent.
+- **Data Minimization:** Only collect data that is strictly necessary for the system's functionality.
+- **Anonymization:** Personal identifiers will be removed or masked wherever possible.
+- **Explicit Consent:** Users must provide clear, informed consent before any monitoring begins.
+- **Transparency:** Users will be able to see what data is collected and how it is used.
+- **Secure Storage:** All collected data will be stored securely with access controls.
+- **Right to Withdraw:** Users can stop monitoring and request data deletion at any time.
+- **Regulatory Compliance:** The system will comply with applicable data protection regulations (e.g., GDPR principles).
+
+> These commitments will be reviewed and enforced throughout the development lifecycle.
 
 ---
 
@@ -169,31 +178,34 @@ Administrators will be able to:
 The following diagram illustrates the proposed workflow of WorkWise.
 
 ```text
-Employee
-   |
-   v
-Registration / Login
-   |
-   v
-Task Management
-   |
-   v
-Work Session
-   |
-   v
-Activity Monitoring
-   |
-   v
-Workload Tracking
-   |
-   v
-Data Analysis
-   |
-   v
-Insights & Reports
-   |
-   v
-Admin
+                 Employee
+                    |
+        +-----------+-----------+
+        |           |           |
+   Registration  Profile      Task
+    / Login     Management  Management
+        |           |           |
+        +-----------+-----------+
+                    |
+             Work Session
+                    |
+           Activity Monitoring
+                    |
+            Workload Tracking
+                    |
+            Well-being Alerts
+                    |
+                    v
+             WorkWise System
+                    |
+                    v
+               Data Analysis
+                    |
+                    v
+             Insights & Reports
+                    |
+                    v
+                  Admin
 ```
 
 ---
@@ -230,15 +242,19 @@ The repository includes the following project resources:
 Contributions, feedback, and suggestions are welcome.
 
 ### 1. Participate in the Survey
+
 Complete the [WorkWise Survey](https://forms.gle/oeYZwNhJJWmt1oov8) to help us understand employee workload and well-being.
 
 ### 2. Share the Survey
+
 Share the questionnaire with relevant participants to help collect a broader range of responses.
 
 ### 3. Provide Feedback
+
 If you have suggestions, ideas, or find an issue, open an **issue** in the repository.
 
 ### 4. Contribute Code
+
 Developers can contribute by following these steps:
 
 1. Fork the repository.
@@ -273,6 +289,3 @@ A formal open-source license may be added in the future. Until a license is adde
 ---
 
 **WorkWise — Building a healthier, more balanced, and more productive workplace.**
-
----
-
