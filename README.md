@@ -178,34 +178,31 @@ Administrators will be able to:
 The following diagram illustrates the proposed workflow of WorkWise.
 
 ```text
-                 Employee
-                    |
-        +-----------+-----------+
-        |           |           |
-   Registration  Profile      Task
-    / Login     Management  Management
-        |           |           |
-        +-----------+-----------+
-                    |
-             Work Session
-                    |
-           Activity Monitoring
-                    |
-            Workload Tracking
-                    |
-            Well-being Alerts
-                    |
-                    v
-             WorkWise System
-                    |
-                    v
-               Data Analysis
-                    |
-                    v
-             Insights & Reports
-                    |
-                    v
-                  Admin
+Employee
+   |
+   v
+Registration / Login
+   |
+   v
+Task Management
+   |
+   v
+Work Session
+   |
+   v
+Activity Monitoring
+   |
+   v
+Workload Tracking
+   |
+   v
+Data Analysis
+   |
+   v
+Insights & Reports
+   |
+   v
+Admin
 ```
 
 ---
@@ -289,3 +286,7 @@ A formal open-source license may be added in the future. Until a license is adde
 ---
 
 **WorkWise — Building a healthier, more balanced, and more productive workplace.**
+
+
+---
+
