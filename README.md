@@ -19,6 +19,7 @@ The system aims to combine **workload monitoring, activity tracking, well-being 
 - [Intelligent Workload & Well-being Management](#-intelligent-workload--well-being-management)
 - [Data Collection](#-data-collection)
 - [Data Usage](#-data-usage)
+- [Privacy & Data Protection](#-privacy--data-protection)
 - [System Overview](#-system-overview)
 - [Basic Workflow](#-basic-workflow)
 - [Project Technologies](#-project-technologies)
@@ -120,6 +121,18 @@ The collected data may be used to:
 
 ---
 
+## 🔒 Privacy & Data Protection
+
+WorkWise is committed to protecting employee privacy and ensuring data protection. Features involving **keyboard/mouse monitoring** and **well-being analysis** will be designed with privacy by default:
+
+- Data anonymization wherever possible.
+- Clear user consent and transparency about data collection.
+- Secure storage and access controls.
+- Compliance with relevant data protection regulations.
+- No personally identifiable information collected without explicit consent.
+
+---
+
 ## 🏗️ System Overview
 
 WorkWise is designed around two primary roles: **Employee** and **Admin**.
@@ -156,34 +169,31 @@ Administrators will be able to:
 The following diagram illustrates the proposed workflow of WorkWise.
 
 ```text
-                 Employee
-                    |
-        +-----------+-----------+
-        |           |           |
-   Registration  Profile      Task
-    / Login     Management  Management
-        |           |           |
-        +-----------+-----------+
-                    |
-             Work Session
-                    |
-           Activity Monitoring
-                    |
-            Workload Tracking
-                    |
-            Well-being Alerts
-                    |
-                    v
-             WorkWise System
-                    |
-                    v
-               Data Analysis
-                    |
-                    v
-             Insights & Reports
-                    |
-                    v
-                  Admin
+Employee
+   |
+   v
+Registration / Login
+   |
+   v
+Task Management
+   |
+   v
+Work Session
+   |
+   v
+Activity Monitoring
+   |
+   v
+Workload Tracking
+   |
+   v
+Data Analysis
+   |
+   v
+Insights & Reports
+   |
+   v
+Admin
 ```
 
 ---
@@ -262,7 +272,7 @@ A formal open-source license may be added in the future. Until a license is adde
 
 ---
 
-
-
 **WorkWise — Building a healthier, more balanced, and more productive workplace.**
+
+---
 
