@@ -19,14 +19,13 @@ The system aims to combine **workload monitoring, activity tracking, well-being 
 - [Intelligent Workload & Well-being Management](#-intelligent-workload--well-being-management)
 - [Data Collection](#-data-collection)
 - [Data Usage](#-data-usage)
-- [System Overview](#system-overview)
+- [System Overview](#-system-overview)
 - [Basic Workflow](#-basic-workflow)
-- [Project Technologies](#project-technologies)
-- [Project Status](#-project-status)
+- [Project Technologies](#-project-technologies)
+- [Project Resources](#-project-resources)
 - [How to Contribute](#-how-to-contribute)
 - [Future Plans](#-future-plans)
 - [License](#-license)
-- [Contact](#-contact)
 
 ---
 
@@ -176,73 +175,5 @@ Employee
              │
              ▼
            Admin
-```
 
----
-
-## 🛠️ Project Technologies
-
-The project is currently under development. The current **planned** technology stack includes:
-
-- **Frontend:** HTML, CSS, 
-- **Backend:** Java
-- **System Analysis & Design:** UML
-- **Data Analysis:** Workload and well-being data analysis
-
-> The technology stack may be extended or updated as the project progresses.
-
----
-
-## 📁 Project Status
-
-🚧 **Status: Under Development**
-
-WorkWise is currently being developed as a research and academic project. Features, technologies, and system components may be updated during the development process.
-
----
-
-## 🤝 How to Contribute
-
-Contributions and suggestions are welcome.
-
-### 1. Participate in the Survey
-Complete the WorkWise questionnaire and help us collect useful research data.
-
-### 2. Share the Survey
-Share the survey with relevant participants to help us collect a broader range of responses.
-
-### 3. Provide Feedback
-If you have suggestions, ideas, or find an issue, feel free to open an **Issue** in this repository.
-
-### 4. Contribute Code
-Developers can contribute by:
-
-1. Forking the repository.
-2. Creating a new branch.
-3. Making the required changes.
-4. Committing the changes.
-5. Creating a Pull Request.
-
----
-
-## 📌 Future Plans
-
-- [ ] Intelligent workload prediction
-- [ ] Personalized workload recommendations
-- [ ] Advanced employee well-being analysis
-- [ ] Automated risk detection
-- [ ] Improved dashboards and visualizations
-- [ ] Machine learning-based workload–well-being analysis
-- [ ] Real-time monitoring and notifications
-- [ ] Advanced reporting and analytics
-
----
-
-## 📄 License
-
-This project is currently developed for **academic, research, and development purposes**.
-
-A formal open-source license may be added in the future.
-
----
 
