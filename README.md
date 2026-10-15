@@ -176,4 +176,65 @@ Employee
              ▼
            Admin
 
+----
+
+##🛠️ Project Technologies
+The project is currently under development. The current planned technology stack includes:
+Frontend: HTML, CSS
+Backend: Java
+System Analysis & Design: UML
+Data Analysis: Workload and well-being data analysis
+The technology stack may be extended or updated as the project progresses.
+---
+
+## 📁 Project Resources
+The repository contains the following key resources:
+Diagram.pdf – System architecture and design diagrams.
+Employee Work Experience Survey.mp4 – A walkthrough of the employee survey process.
+System Sequence Diagram and Project Development Methodology.pdf – Detailed system sequence diagrams and the development methodology followed.
+
+---
+
+## 🤝 How to Contribute
+Contributions and suggestions are welcome.
+1. Participate in the Survey
+Complete the WorkWise questionnaire and help us collect useful research data.
+2. Share the Survey
+Share the survey with relevant participants to help us collect a broader range of responses.
+3. Provide Feedback
+If you have suggestions, ideas, or find an issue, feel free to open an Issue in this repository.
+4. Contribute Code
+Developers can contribute by:
+Forking the repository.
+Creating a new branch.
+Making the required changes.
+Committing the changes.
+Creating a Pull Request.
+
+---
+
+##📌 Future Plans
+□ Intelligent workload prediction
+□ Personalized workload recommendations
+□ Advanced employee well-being analysis
+□ Automated risk detection
+□ Improved dashboards and visualizations
+□ Machine learning-based workload–well-being analysis
+□ Real-time monitoring and notifications
+□ Advanced reporting and analytics
+
+---
+##📄 License
+This project is currently developed for academic, research, and development purposes.
+
+A formal open-source license may be added in the future.
+
+### Key Changes Made
+
+1.  **Added a "Project Resources" section** – This new section links to the additional files now in the repository: `Diagram.pdf`, `Employee Work Experience Survey.mp4`, and `System Sequence Diagram and Project Development Methodology.pdf`. This makes these valuable resources easily discoverable for users and contributors[reference:0].
+2.  **Removed "Project Status" and "Contact" sections** – As indicated by the recent commit message "Remove project and contact sections from README"[reference:1], these sections have been deleted to keep the README focused on the project's core information.
+3.  **Updated the Technology Stack** – The `Backend` entry now correctly lists **Java**, aligning with the repository's description of being a Java-based desktop system[reference:2].
+4.  **Refined the Table of Contents** – Updated to reflect the new "Project Resources" section and the removal of the outdated sections.
+
+
 
